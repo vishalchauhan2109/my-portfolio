@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color:white; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    list-style: none;
+}
+body{
+    background-color: rgb(75, 116, 240);
+}
+.navbar{
+    min-height: 60px;
+    background-color:orange;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.left{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.right{
+    font-size: large;
+    width: 50%;
+}
+
+.right ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section-1{
+    display: flex;
+    align-items: center;                                                ;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+}
+.nav-2{
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    align-items: center;                                                ;
+    justify-content: space-around;
+    margin-bottom: 8vh;
+    background-color: transparent;
+}
+.intro{
+    width: 30%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 1.8rem;
+    font-weight: 100;
+    font-style: inherit;
+}
+#webdev ,#vishal{
+    color: orange;
+    text-decoration: underline white;
+}
+hr{
+    border: 0;
+    background:aliceblue;
+    height: 1.3px;
+    margin: 40px 84px;
+
+}
+.image{
+    width: 30%;
+}
+.image-size{
+    max-height:60       vh ;
+    margin-top:10vh;
+}
+.section-2{
+    margin-left: 10vw;
+    height: 80vh;
+
+}
+.text-gray{
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+.work-exp{
+    color: orange;
+}
+.education{
+    border-top: 1px solid aliceblue;
+    margin-right: 25vh;
+    min-height: 50%;
+    display: flex;
+    justify-content:space-between;
+}
+.education vertical{
+    border: 1px solid white;
+    height: 10vw;
+
+}
+
+.image-2{
+    height: 32px;
+    max-width: 20vw;
+    background-color: none;
+}
+.image-set{
+    margin-bottom: 0px;
+    margin-right: 24vh;
+    display: flex;
+    margin-top: 2vw;
+    justify-content: space-between;
+}
+div.same{
+    display: flex;
+    width: 2px;
+    flex-direction: column;
+    align-items: center;
+}    
+.line{
+    width: 100px;
+}
+.skills{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgb(75, 116, 240);
+}
+h1{
+    padding-top: 6vh;
+    padding-left: 23vh;
+    text-decoration: underline;
+    color: orange;
+}
+.skills-name{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6vh;
+    margin-left:23vh ;
+}
+h4{
+    margin-left:20vw;
+    margin-top: 90px;
+    text-decoration: underline;
+    list-style-type: armenian;
+
+
+}
